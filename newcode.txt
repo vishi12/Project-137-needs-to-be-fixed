@@ -1,0 +1,11 @@
+if(objects[i].label == item_name) { 
+    video.stop();
+    objectDetector.detect(gotResult); 
+    document.getElementById("detected").innerHTML = item_name + " Found";
+    synth = window.speechSynthesis;
+    utterThis = new SpeechSynthesisUtterance(item_name + "Found");
+    synth.speak(utterThis); 
+} 
+    else { 
+        document.getElementById("detected").innerHTML = item_name + " Not Found"; 
+}

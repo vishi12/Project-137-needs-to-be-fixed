@@ -1,0 +1,29 @@
+body{
+    background-size:cover;
+}
+
+.heading{
+    font-size:23px;
+    width:100%;
+    margin:0px;
+}
+
+#note{
+    font-size:18px;
+}
+
+#item_name{
+    width:500px;
+}
+
+#start, #status, #detected{
+    font-size:18px;
+    margin-right:10px;
+}
+
+canvas{
+    border:2px white;
+    border-radius:10px;
+    margin-top:150px;
+    box-shadow:10px 10px 10px white;
+}
